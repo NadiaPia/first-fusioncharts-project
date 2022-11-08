@@ -1,12 +1,11 @@
 # Tutorial "How to Draw Beautiful Charts with FusionCharts and ReactJs "
 
-(https://www.youtube.com/watch?v=cwbDrJmtSBc&ab_channel=Zpunet)
+(https://www.youtube.com/watch?v=cwbDrJmtSBc&ab_channel=Zpunet):
 I used this tutorial to learn how to draw different kind of charts in React using FusionCharts.
-!["Colum 2D"](https://github.com/NadiaPia/first-fusioncharts-project/blob/master/pics/colum%202D.png)
 
-!["Doughnut 3D"](https://github.com/NadiaPia/first-fusioncharts-project/blob/master/pics/Doughnut%203D.png)
-
-!["Multi 2D"](https://github.com/NadiaPia/first-fusioncharts-project/blob/master/pics/Multi%202D.png)
+<img src="https://github.com/NadiaPia/first-fusioncharts-project/blob/master/pics/colum%202D.png" alt="drawing" width="400"/>
+<img src="https://github.com/NadiaPia/first-fusioncharts-project/blob/master/pics/Doughnut%203D.png" alt="drawing" width="400"/>
+<img src="https://github.com/NadiaPia/first-fusioncharts-project/blob/master/pics/Multi%202D.png" alt="drawing" width="400"/>
 
 
 ## Available Scripts
