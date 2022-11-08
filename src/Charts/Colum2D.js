@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 import { chartData } from '../data';
 
 function Colum2D({ReactFC}) {
 
   const chartConfigs = {
-    type: "column2d", // The chart type
-    width: "700", // Width of the chart
-    height: "400", // Height of the chart
-    dataFormat: "json", // Data type
+    type: "column2d",
+    width: "700",
+    height: "400",
+    dataFormat: "json",
     dataSource: {
       // Chart Configuration
       chart: {
@@ -18,13 +18,12 @@ function Colum2D({ReactFC}) {
         numberSuffix: "K",
         theme: "fusion"                 //Set the theme for your chart
       },
-      // Chart Data - from step 2
+      // Chart Data 
       data: chartData,
     }
   };
 
-  return <ReactFC {...chartConfigs} />;
-  
+  return <ReactFC {...chartConfigs} />;  
 }
 
 export default Colum2D

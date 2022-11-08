@@ -2,12 +2,11 @@ import React from 'react';
 import { chartData } from '../data';
 
 export default function Doughnut3D({ReactFC}) {
-
   const chartConfigs = {
-    type: "doughnut3d", // The chart type
-    width: "700", // Width of the chart
-    height: "400", // Height of the chart
-    dataFormat: "json", // Data type
+    type: "doughnut3d",
+    width: "700",
+    height: "400",
+    dataFormat: "json",
     dataSource: {
       // Chart Configuration
       chart: {
@@ -16,7 +15,7 @@ export default function Doughnut3D({ReactFC}) {
         numberPrefix: "$",
         theme: "fusion"
       },
-      // Chart Data - from step 2
+      // Chart Data
       data: chartData,
     }
   };
